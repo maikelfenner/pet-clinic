@@ -1,4 +1,4 @@
-package br.com.maikelfenner.petclinic.model;
+package br.com.maikelfenner.model;
 
 import java.time.LocalDate;
 

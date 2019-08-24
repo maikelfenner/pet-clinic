@@ -1,4 +1,4 @@
-package br.com.maikelfenner.petclinic;
+package br.com.maikelfenner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
