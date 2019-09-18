@@ -2,9 +2,11 @@ package br.com.maikelfenner.services.map;
 
 import br.com.maikelfenner.model.Pet;
 import br.com.maikelfenner.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {

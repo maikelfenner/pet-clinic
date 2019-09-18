@@ -2,9 +2,11 @@ package br.com.maikelfenner.services.map;
 
 import br.com.maikelfenner.model.Owner;
 import br.com.maikelfenner.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
